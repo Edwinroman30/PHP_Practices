@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; //**posiciona los elementos hijos en el contenedor**//
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 250px;
+    padding: 15px;
+    background: brown;
+    
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+    padding: 5px;
+}
+
+.caja h5{
+    font-size: 17px;
+    color: white;
+}
+
+.caja input{
+    height: 18px;
+}
+
+.caja_e{
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+}
+
+.caja_e input{
+    width: 100%;
+    height: 100%;
+}
